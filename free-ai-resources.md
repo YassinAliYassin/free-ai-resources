@@ -2,6 +2,16 @@
 Zero/low cost, high-limit AI models for development.
 
 ## Options
+• **Anthropic Claude**  
+  Free web access: https://claude.ai/ (Claude 3.5 Sonnet, limited daily messages, no credit card)  
+  API free trial: New accounts get $5 free credits (https://console.anthropic.com/)  
+  Also available via OpenRouter free tier: https://openrouter.ai/anthropic/claude-3.5-sonnet (limited free)
+
+• **OpenAI**  
+  Free web access: https://chat.openai.com/ (GPT-3.5 unlimited, limited GPT-4o access)  
+  API free credits: New accounts receive $5 free credit (https://platform.openai.com/)  
+  No permanent free API tier, but trial credits are available.
+
 • **Google Gemini**  
   Free tier: 15 RPM, 1k requests/day  
   Sign up: https://ai.google.dev/  
@@ -25,7 +35,7 @@ Zero/low cost, high-limit AI models for development.
   Sign up: https://huggingface.co/inference-api
 
 • **OpenRouter Free Models**  
-  Mix of free models (Gemini Flash, Mixtral, etc.)  
+  Mix of free models (Gemini Flash, Mixtral, Claude, etc.)  
   List: https://openrouter.ai/docs/models/free
 
 • **Meta Llama 3**  
