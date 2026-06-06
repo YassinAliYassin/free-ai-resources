@@ -46,8 +46,9 @@ List of useful free AI tools, their purposes, and use cases.
 • **OpenRouter Free Models**
   - Purpose: Unified access to multiple free AI models.
   - Use Cases: Comparing model outputs, multi-model workflows, cost-free inference.
-  - Free Models List: https://openrouter.ai/docs/models/free
-  - Supported Models: Gemini Flash, Mixtral, Claude (limited), Llama 3
+  - Free Models List: https://openrouter.ai/collections/free-models
+  - Recommended: https://openrouter.ai/openrouter/free (auto-routes to available free models)
+  - Top Free Models (June 2026): Owl Alpha (1M context), NVIDIA Nemotron 3 Super, Poolside Laguna M.1, OpenAI gpt-oss-120b, GLM 4.5 Air
 
 • **Meta Llama 3**
   - Purpose: Open-weight large language model for general tasks.
@@ -71,3 +72,21 @@ List of useful free AI tools, their purposes, and use cases.
   - Purpose: AI-powered search and research.
   - Use Cases: Academic research, fact-checking, trend analysis.
   - Free Access: https://www.perplexity.ai/ (limited daily searches)
+
+• **Together AI**
+  - Purpose: Hosted open-source models with fast inference.
+  - Use Cases: Experimenting with 200+ open models, RAG pipelines, custom inference.
+  - Free Access: https://www.together.ai/ (free credits for new accounts)
+  - Supported Models: Llama 3, Qwen, Mistral, Code Llama, 200+ open models
+
+• **Fireworks AI**
+  - Purpose: High-performance inference for open-source models.
+  - Use Cases: Production apps needing fast inference, function calling, structured output.
+  - Free Access: https://fireworks.ai/ (initial free credits for new accounts)
+  - Supported Models: Llama 3, Mixtral, Gemma, custom fine-tuned models
+
+• **Cohere**
+  - Purpose: Text generation, embeddings, and reranking for enterprise use.
+  - Use Cases: RAG pipelines, semantic search, document processing, chatbots.
+  - Free Tier: https://cohere.com/ (free tier for embeddings and reranking)
+  - Supported Models: Command, Embed, Rerank
