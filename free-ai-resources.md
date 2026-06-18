@@ -1,7 +1,8 @@
 # Free AI Models (Useful, Free Options)
 List of useful free AI tools, their purposes, and use cases.
 
-## Options
+## Large Language Models (Chat & General Purpose)
+
 • **Anthropic Claude**
   - Purpose: Advanced reasoning, coding, writing, and analysis.
   - Use Cases: Code generation, technical writing, complex problem-solving, Q&A.
@@ -37,41 +38,28 @@ List of useful free AI tools, their purposes, and use cases.
   - Free Access: https://mistral.ai/ (Mixtral 8x7B, Mistral 7B)
   - API: https://console.mistral.ai/
 
-• **Hugging Face Inference API**
-  - Purpose: Access to thousands of open-source AI models.
-  - Use Cases: Image generation, speech-to-text, translation, custom model deployment.
-  - Free Access: https://huggingface.co/inference-api
-  - Popular Models: Llama 3, Stable Diffusion, Whisper, LLaVA
+• **Z.ai (Zhipu AI)**
+  - Purpose: High-performance GLM models with free API access.
+  - Use Cases: Coding, reasoning, agentic workflows, general-purpose tasks.
+  - Free API: https://docs.z.ai/guides/overview/pricing (GLM-4.7 free tier, Anthropic-compatible endpoint)
+  - Web Access: https://z.ai/
+  - Notes: Free API access to GLM-4.7 flagship model; also available on OpenRouter as GLM-4.5-Air (free)
+
+## Model Aggregators & Multi-Model APIs
 
 • **OpenRouter Free Models**
   - Purpose: Unified access to multiple free AI models.
   - Use Cases: Comparing model outputs, multi-model workflows, cost-free inference.
   - Free Models List: https://openrouter.ai/collections/free-models
   - Recommended: https://openrouter.ai/openrouter/free (auto-routes to available free models)
-  - Top Free Models (June 2026): Owl Alpha (1M context), NVIDIA Nemotron 3 Super, Poolside Laguna M.1, OpenAI gpt-oss-120b, GLM 4.5 Air
+  - Rate Limits: 20 req/min, 200 req/day per model
+  - Top Free Models (June 2026): Owl Alpha (1M context), NVIDIA Nemotron 3 Ultra (550B MoE), Nex AGI Nex-N2-Pro (397B MoE), Poolside Laguna M.1 (coding agent), NVIDIA Nemotron 3 Super (120B), OpenAI gpt-oss-120b, Google Gemma 4 31B, Qwen3 Coder 480B (1M context), Poolside Laguna XS.2, OpenAI gpt-oss-20b, Cohere North Mini Code (30B coding model)
 
-• **Meta Llama 3**
-  - Purpose: Open-weight large language model for general tasks.
-  - Use Cases: Custom fine-tuning, self-hosted chatbots, research.
-  - Free Access: https://huggingface.co/meta-llama
-  - Deployment: Via Hugging Face or self-hosted
-
-• **Stable Diffusion (Image Generation)**
-  - Purpose: Text-to-image generation.
-  - Use Cases: Art creation, design mockups, visual content.
-  - Free Access: https://huggingface.co/spaces/stabilityai/stable-diffusion
-  - Self-Hosted: Available via Hugging Face models
-
-• **OpenAI Whisper (Speech-to-Text)**
-  - Purpose: Accurate speech recognition.
-  - Use Cases: Transcribing audio, video captions, voice commands.
-  - Free Access: https://huggingface.co/openai/whisper-large-v3
-  - Deployment: Via Hugging Face Inference API
-
-• **Perplexity AI**
-  - Purpose: AI-powered search and research.
-  - Use Cases: Academic research, fact-checking, trend analysis.
-  - Free Access: https://www.perplexity.ai/ (limited daily searches)
+• **Hugging Face Inference API**
+  - Purpose: Access to thousands of open-source AI models.
+  - Use Cases: Image generation, speech-to-text, translation, custom model deployment.
+  - Free Access: https://huggingface.co/inference-api
+  - Popular Models: Llama 3, Stable Diffusion, Whisper, LLaVA
 
 • **Together AI**
   - Purpose: Hosted open-source models with fast inference.
@@ -85,8 +73,133 @@ List of useful free AI tools, their purposes, and use cases.
   - Free Access: https://fireworks.ai/ (initial free credits for new accounts)
   - Supported Models: Llama 3, Mixtral, Gemma, custom fine-tuned models
 
+• **Krater AI**
+  - Purpose: All-in-one AI platform with 350+ models via single API.
+  - Use Cases: Accessing multiple model providers with one API key, image/video/voice generation.
+  - Free Access: https://krater.ai/ (free tier available)
+  - Notes: OpenAI-compatible REST API, includes OpenAI, Anthropic, Google, Meta, xAI models
+
+## Embeddings, Search & RAG
+
 • **Cohere**
   - Purpose: Text generation, embeddings, and reranking for enterprise use.
   - Use Cases: RAG pipelines, semantic search, document processing, chatbots.
   - Free Tier: https://cohere.com/ (free tier for embeddings and reranking)
   - Supported Models: Command, Embed, Rerank
+  - New: Cohere North Mini Code — open-source 30B agentic coding model (June 2026)
+
+• **Voyage AI**
+  - Purpose: Best-in-class embedding models and rerankers for search.
+  - Use Cases: RAG pipelines, code search, semantic search, document retrieval.
+  - Free Tier: https://www.voyageai.com/ (200M free tokens for most models, 50M for specialized)
+  - Notes: Among the highest-quality embedding models available; integrates with MongoDB Atlas
+
+## Image & Video Generation
+
+• **Stable Diffusion (Image Generation)**
+  - Purpose: Text-to-image generation.
+  - Use Cases: Art creation, design mockups, visual content.
+  - Free Access: https://huggingface.co/spaces/stabilityai/stable-diffusion
+  - Self-Hosted: Available via Hugging Face models
+
+• **ZSky AI**
+  - Purpose: Free AI image and video generation.
+  - Use Cases: Unlimited AI image editing, text-to-image, text-to-video, image-to-video with audio.
+  - Free Access: https://zsky.ai/ (unlimited free web tool, no credit card)
+  - Notes: 1080p video generation with synchronized audio; API requires paid plan
+
+## Audio & Music
+
+• **Suno**
+  - Purpose: AI music generation from text prompts.
+  - Use Cases: Song creation, music production, content soundtracks.
+  - Free Access: https://suno.com/ (up to 10 songs/day, no credit card)
+  - Notes: Full songs with lyrics and vocals; commercial usage rights included
+
+• **Treblo (formerly Sonauto)**
+  - Purpose: Unlimited free AI music generation.
+  - Use Cases: Song creation, meme music, personal projects with commercial usage rights.
+  - Free Access: https://treblo.com/ (unlimited, no credit card, commercial rights included)
+  - Notes: Complete songs with lyrics, vocals, and thousands of styles
+
+• **OpenAI Whisper (Speech-to-Text)**
+  - Purpose: Accurate speech recognition.
+  - Use Cases: Transcribing audio, video captions, voice commands.
+  - Free Access: https://huggingface.co/openai/whisper-large-v3
+  - Deployment: Via Hugging Face Inference API
+
+## Search & Research
+
+• **Perplexity AI**
+  - Purpose: AI-powered search and research.
+  - Use Cases: Academic research, fact-checking, trend analysis.
+  - Free Access: https://www.perplexity.ai/ (limited daily searches)
+
+## Local AI (Run on Your Own Hardware)
+
+• **Ollama**
+  - Purpose: One-command local AI model runner.
+  - Use Cases: Private, offline, unlimited AI inference with no API costs.
+  - Free Access: https://ollama.com/ (completely free, open-source)
+  - Supported Models: Llama, Mistral, Phi, Gemma, DeepSeek, Qwen, and more
+  - Notes: Requires decent hardware (8GB+ VRAM or Apple Silicon Mac); no API key needed
+
+• **LM Studio**
+  - Purpose: Desktop app with clean GUI for running local AI models.
+  - Use Cases: Non-developers wanting local AI access without CLI.
+  - Free Access: https://lmstudio.ai/ (free for personal use)
+  - Supported Models: gpt-oss, Llama, Gemma, Qwen, DeepSeek, and more
+  - Notes: Private, offline, OpenAI-compatible local API server
+
+## Code Assistants & IDEs
+
+• **GitHub Copilot Free**
+  - Purpose: AI coding assistant integrated into VS Code and other IDEs.
+  - Use Cases: Code completion, chat assistance, code review, documentation.
+  - Free Access: https://github.com/features/copilot/plans (2,000 completions + 50 chats/month)
+  - Notes: Usage-based billing introduced June 2026; free tier remains for individual developers
+
+## Cloud & Infrastructure Providers
+
+• **Cerebras**
+  - Purpose: Ultra-fast AI inference on wafer-scale chips.
+  - Use Cases: Low-latency applications, real-time chatbots, high-throughput tasks.
+  - Free Access: https://cerebras.ai/
+  - Notes: Free tier: 1M tokens/day, 8K context cap, includes gpt-oss-120b, etc.
+
+• **Cloudflare Workers AI**
+  - Purpose: Run AI models on Cloudflare's global network.
+  - Use Cases: Serverless AI applications, global low-latency inference.
+  - Free Access: https://workers.cloudflare.com/ai
+  - Notes: Free tier: 10,000 Neurons/day, 50+ models including Llama 4, Gemma, etc.
+
+• **NVIDIA NIM**
+  - Purpose: Deploy and run AI models with NVIDIA's inference microservices.
+  - Use Cases: High-performance inference, enterprise applications.
+  - Free Access: https://build.nvidia.com/explore/discover
+  - Notes: Free with NVIDIA Developer Program, 100+ models, ~40 RPM rate limit.
+
+• **SiliconFlow**
+  - Purpose: Permanently free AI model APIs.
+  - Use Cases: Access to open-source models without cost.
+  - Free Access: https://cloud.siliconflow.cn/
+  - Notes: Permanently free models, no credit card, 200+ models.
+
+## Open-Weight Models (Self-Hosted)
+
+• **Meta Llama 3**
+  - Purpose: Open-weight large language model for general tasks.
+  - Use Cases: Custom fine-tuning, self-hosted chatbots, research.
+  - Free Access: https://huggingface.co/meta-llama
+  - Deployment: Via Hugging Face or self-hosted
+
+## ⚠️ Important Notes
+
+• **GitHub Models** — No longer available to new customers as of June 2026. Existing users retain access.
+  - Details: https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers/
+
+• **Free tiers change frequently** — Always verify current limits on the provider's official page.
+
+• **Rate limits** — Most free tiers have per-minute and/or per-day request limits. Check provider docs for current limits.
+
+• **Production use** — Free tiers are best for prototyping and experimentation. For production workloads, consider paid plans for reliability and higher throughput.
