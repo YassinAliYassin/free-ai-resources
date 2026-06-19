@@ -1,6 +1,8 @@
 # Free AI Models (Useful, Free Options)
 List of useful free AI tools, their purposes, and use cases.
 
+**Last Updated: June 19, 2026**
+
 ## Large Language Models (Chat & General Purpose)
 
 • **Anthropic Claude**
@@ -18,8 +20,9 @@ List of useful free AI tools, their purposes, and use cases.
 • **Google Gemini**
   - Purpose: Multimodal AI for text, image, and code tasks.
   - Use Cases: Research, image analysis, coding, data summarization.
-  - Free Tier: https://ai.google.dev/ (15 RPM, 1k requests/day)
-  - Web Access: https://gemini.google.com/
+  - Free Tier: https://ai.google.dev/ (15 RPM, 1k requests/day)
+  - AI Studio: https://gemini.google.com/ (free access, no card)
+  - Notes: New Cloud trial credits created after March 2026 do NOT cover Gemini API or AI Studio usage.
 
 • **DeepSeek**
   - Purpose: Specialized in coding, math, and logical reasoning.
@@ -29,10 +32,10 @@ List of useful free AI tools, their purposes, and use cases.
 • **Groq**
   - Purpose: Ultra-fast inference for real-time AI applications.
   - Use Cases: Real-time chatbots, low-latency inference, high-throughput tasks.
-  - Free Tier: https://console.groq.com/ (14k tokens/day)
-  - Supported Models: Llama 3, Mixtral, Gemma
+  - Free Tier: https://console.groq.com/ (free API tier now 1,000 RPD, not 14,400 RPD)
+  - Supported Models: Llama 3, Mixtral, Gemma, and many others.
+  - Notes: Rate limits: 30 RPM, 1,000 RPD, 6,000 TPM; use caching to extend.
 
-• **Mistral AI**
   - Purpose: Open-weight models for flexible AI deployment.
   - Use Cases: Custom AI solutions, fine-tuning, self-hosted inference.
   - Free Access: https://mistral.ai/ (Mixtral 8x7B, Mistral 7B)
@@ -94,9 +97,53 @@ List of useful free AI tools, their purposes, and use cases.
   - Free Tier: https://www.voyageai.com/ (200M free tokens for most models, 50M for specialized)
   - Notes: Among the highest-quality embedding models available; integrates with MongoDB Atlas
 
-## Image & Video Generation
+## Free Video Generation APIs
 
-• **Stable Diffusion (Image Generation)**
+• **WaveSpeedAI Video Generator**
+  - **Purpose**: Aggregator platform for multiple free video generation models.
+  - **Free Credits**: Signup credits (~5 video generations, 15‑s max duration per model).
+  - **Use Cases**: Compare model outputs, build video workflows, create short clips.
+  - **Free Access**: https://wavespeed.ai/
+  - **Notes**: Free credits refresh daily; no watermark in outputs.
+
+• **Kling AI**
+  - **Purpose**: Text‑to‑video generator with smooth motion.
+  - **Free Tier**: ~66 credits/day, 10‑s max duration.
+  - **Use Cases**: Smooth motion clips, quick prototyping.
+  - **Free Access**: https://kling.ai/
+  - **Notes**: Queue times can be 5‑15 min during peak; watermark removed after paid plan.
+
+• **HaiLuo AI (MiniMax)**
+  - **Purpose**: Fast text‑to‑video generation with high‑fidelity motion.
+  - **Free Tier**: Several free generations/day, 6‑second max duration.
+  - **Use Cases**: Quick demos, testing narratives.
+  - **Free Access**: https://mimimax.com/ (Free tier).
+  - **Notes**: Watermark in free outputs; API requires paid plan.
+
+## OCR & Document Parsing
+
+• **LlamaParse**
+  - **Purpose**: AI‑native PDF & document extraction.
+  - **Free Tier**: Up to 10 000 credits/month (~10 000 pages).
+  - **Use Cases**: RAG pipelines, data ingestion.
+  - **Free Access**: https://docs.llamaindex.ai/docs/language-models/llamaparse
+  - **Notes**: Credits automatically refreshed each month; high precision for tables.
+
+• **OCR.space**
+  - **Purpose**: Simple online OCR API.
+  - **Free Access**: https://ocr.space/.
+  - **Use Cases**: Quick OCR, batch image processing.
+  - **Notes**: Requires API key (free), 25 000 free calls/month; limited to 200 k image pixels per day.
+
+## New Aggregated API Platform
+
+• **AIMLAPI**
+  - **Purpose**: Single API key for 400+ AI models across domains.
+  - **Free Access**: https://aimlapi.com/ (no credit card required).
+  - **Use Cases**: Experimenting with many models, building multi‑model pipelines.
+  - **Notes**: Free tier includes GPT‑5, Claude, Gemini, Llama, and many others up to a limited token cap.
+
+
   - Purpose: Text-to-image generation.
   - Use Cases: Art creation, design mockups, visual content.
   - Free Access: https://huggingface.co/spaces/stabilityai/stable-diffusion
