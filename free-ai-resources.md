@@ -1,7 +1,7 @@
 # Free AI Models (Useful, Free Options)
 List of useful free AI tools, their purposes, and use cases.
 
-**Last Updated: June 19, 2026**
+**Last Updated: June 21, 2026**
 
 ## Large Language Models (Chat & General Purpose)
 
@@ -20,9 +20,9 @@ List of useful free AI tools, their purposes, and use cases.
 • **Google Gemini**
   - Purpose: Multimodal AI for text, image, and code tasks.
   - Use Cases: Research, image analysis, coding, data summarization.
-  - Free Tier: https://ai.google.dev/ (15 RPM, 1k requests/day)
+  - Free Tier: https://ai.google.dev/ (free tier limits vary by model — check current limits)
   - AI Studio: https://gemini.google.com/ (free access, no card)
-  - Notes: New Cloud trial credits created after March 2026 do NOT cover Gemini API or AI Studio usage.
+  - Notes: New Cloud trial credits created after March 2026 do NOT cover Gemini API or AI Studio usage. Free tier limits reduced for some models (April 2026).
 
 • **DeepSeek**
   - Purpose: Specialized in coding, math, and logical reasoning.
@@ -34,12 +34,14 @@ List of useful free AI tools, their purposes, and use cases.
   - Use Cases: Real-time chatbots, low-latency inference, high-throughput tasks.
   - Free Tier: https://console.groq.com/ (free API tier now 1,000 RPD, not 14,400 RPD)
   - Supported Models: Llama 3, Mixtral, Gemma, and many others.
-  - Notes: Rate limits: 30 RPM, 1,000 RPD, 6,000 TPM; use caching to extend.
+  - Notes: Rate limits: 30 RPM, 1,000 RPD, 6,000 TPM; use caching to extend.
 
+• **Mistral AI**
   - Purpose: Open-weight models for flexible AI deployment.
   - Use Cases: Custom AI solutions, fine-tuning, self-hosted inference.
-  - Free Access: https://mistral.ai/ (Mixtral 8x7B, Mistral 7B)
-  - API: https://console.mistral.ai/
+  - Free Tier: https://console.mistral.ai/ (free tier available for API prototyping)
+  - API: https://docs.mistral.ai/admin/user-management-finops/tier
+  - Notes: Free mode enabled by default with limited rate limits; upgrade to Scale plan for higher limits.
 
 • **Z.ai (Zhipu AI)**
   - Purpose: High-performance GLM models with free API access.
@@ -47,6 +49,12 @@ List of useful free AI tools, their purposes, and use cases.
   - Free API: https://docs.z.ai/guides/overview/pricing (GLM-4.7 free tier, Anthropic-compatible endpoint)
   - Web Access: https://z.ai/
   - Notes: Free API access to GLM-4.7 flagship model; also available on OpenRouter as GLM-4.5-Air (free)
+
+• **xAI Grok**
+  - Purpose: Frontier AI models with advanced reasoning, voice, image generation, and real-time search.
+  - Use Cases: Complex reasoning tasks, real-time information, multimodal applications.
+  - Free Credits: https://x.ai/api ($150/month in free API credits via data-sharing program, eligible countries)
+  - Notes: Opt-in data sharing required for free credits; includes Grok text, vision, and voice models.
 
 ## Model Aggregators & Multi-Model APIs
 
@@ -56,7 +64,7 @@ List of useful free AI tools, their purposes, and use cases.
   - Free Models List: https://openrouter.ai/collections/free-models
   - Recommended: https://openrouter.ai/openrouter/free (auto-routes to available free models)
   - Rate Limits: 20 req/min, 200 req/day per model
-  - Top Free Models (June 2026): Owl Alpha (1M context), NVIDIA Nemotron 3 Ultra (550B MoE), Nex AGI Nex-N2-Pro (397B MoE), Poolside Laguna M.1 (coding agent), NVIDIA Nemotron 3 Super (120B), OpenAI gpt-oss-120b, Google Gemma 4 31B, Qwen3 Coder 480B (1M context), Poolside Laguna XS.2, OpenAI gpt-oss-20b, Cohere North Mini Code (30B coding model)
+  - Top Free Models (June 2026): Owl Alpha (1M context), NVIDIA Nemotron 3 Ultra (550B MoE), Nex AGI Nex-N2-Pro (397B MoE), Poolside Laguna M.1 (coding agent), NVIDIA Nemotron 3 Super (120B), OpenAI gpt-oss-120b, Google Gemma 4 31B, Qwen3 Coder 480B (1M context), Poolside Laguna XS.2, OpenAI gpt-oss-20b, Cohere North Mini Code (30B coding model), NVIDIA Nemotron 3 Nano 30B, Gemma 4 26B A4B
 
 • **Hugging Face Inference API**
   - Purpose: Access to thousands of open-source AI models.
@@ -67,7 +75,7 @@ List of useful free AI tools, their purposes, and use cases.
 • **Together AI**
   - Purpose: Hosted open-source models with fast inference.
   - Use Cases: Experimenting with 200+ open models, RAG pipelines, custom inference.
-  - Free Access: https://www.together.ai/ (free credits for new accounts)
+  - Free Access: https://www.together.ai/ ($25 in free credits for new accounts)
   - Supported Models: Llama 3, Qwen, Mistral, Code Llama, 200+ open models
 
 • **Fireworks AI**
@@ -81,6 +89,12 @@ List of useful free AI tools, their purposes, and use cases.
   - Use Cases: Accessing multiple model providers with one API key, image/video/voice generation.
   - Free Access: https://krater.ai/ (free tier available)
   - Notes: OpenAI-compatible REST API, includes OpenAI, Anthropic, Google, Meta, xAI models
+
+• **AIMLAPI**
+  - Purpose: Single API key for 400+ AI models across domains.
+  - Free Access: https://aimlapi.com/ (no credit card required).
+  - Use Cases: Experimenting with many models, building multi-model pipelines.
+  - Notes: Free tier includes GPT-5, Claude, Gemini, Llama, and many others up to a limited token cap.
 
 ## Embeddings, Search & RAG
 
@@ -99,52 +113,57 @@ List of useful free AI tools, their purposes, and use cases.
 
 ## Free Video Generation APIs
 
+• **Luma Dream Machine**
+  - **Purpose**: AI video generation with high-quality cinematic output.
+  - **Free Tier**: ~30 video generations per month (standard speed, no watermark on standard quality).
+  - **Use Cases**: Short film prototyping, social media content, creative storytelling.
+  - **Free Access**: https://lumalabs.ai/
+  - **Notes**: 80 credits/day on free tier; text-to-video and image-to-video supported.
+
+• **Runway**
+  - **Purpose**: Professional AI video generation and editing suite.
+  - **Free Tier**: 125 one-time credits (approximately 25-50 video clips depending on model).
+  - **Use Cases**: Video editing, text-to-video, image-to-video, professional creative work.
+  - **Free Access**: https://runwayml.com/
+  - **Notes**: Gen-4.5 is top-rated video model; free credits do not expire but are one-time.
+
 • **WaveSpeedAI Video Generator**
   - **Purpose**: Aggregator platform for multiple free video generation models.
-  - **Free Credits**: Signup credits (~5 video generations, 15‑s max duration per model).
+  - **Free Credits**: Signup credits (~5 video generations, 15-s max duration per model).
   - **Use Cases**: Compare model outputs, build video workflows, create short clips.
   - **Free Access**: https://wavespeed.ai/
   - **Notes**: Free credits refresh daily; no watermark in outputs.
 
 • **Kling AI**
-  - **Purpose**: Text‑to‑video generator with smooth motion.
-  - **Free Tier**: ~66 credits/day, 10‑s max duration.
+  - **Purpose**: Text-to-video generator with smooth motion.
+  - **Free Tier**: ~66 credits/day, 10-s max duration.
   - **Use Cases**: Smooth motion clips, quick prototyping.
   - **Free Access**: https://kling.ai/
-  - **Notes**: Queue times can be 5‑15 min during peak; watermark removed after paid plan.
+  - **Notes**: Queue times can be 5-15 min during peak; watermark removed after paid plan.
 
 • **HaiLuo AI (MiniMax)**
-  - **Purpose**: Fast text‑to‑video generation with high‑fidelity motion.
-  - **Free Tier**: Several free generations/day, 6‑second max duration.
+  - **Purpose**: Fast text-to-video generation with high-fidelity motion.
+  - **Free Tier**: Several free generations/day, 6-second max duration.
   - **Use Cases**: Quick demos, testing narratives.
   - **Free Access**: https://mimimax.com/ (Free tier).
   - **Notes**: Watermark in free outputs; API requires paid plan.
 
-## OCR & Document Parsing
+## Image Generation
 
-• **LlamaParse**
-  - **Purpose**: AI‑native PDF & document extraction.
-  - **Free Tier**: Up to 10 000 credits/month (~10 000 pages).
-  - **Use Cases**: RAG pipelines, data ingestion.
-  - **Free Access**: https://docs.llamaindex.ai/docs/language-models/llamaparse
-  - **Notes**: Credits automatically refreshed each month; high precision for tables.
+• **Raphael AI**
+  - **Purpose**: Free unlimited AI image generation (powered by Nano Banana).
+  - **Use Cases**: Quick image creation, prototyping, social media graphics.
+  - **Free Access**: https://raphaelai.org/ (no account required to start generating)
+  - **Notes**: Unlimited free generations; free account needed for AI photo editing and certain download features.
 
-• **OCR.space**
-  - **Purpose**: Simple online OCR API.
-  - **Free Access**: https://ocr.space/.
-  - **Use Cases**: Quick OCR, batch image processing.
-  - **Notes**: Requires API key (free), 25 000 free calls/month; limited to 200 k image pixels per day.
+• **Microsoft Designer / Bing Image Creator**
+  - **Purpose**: Free AI image generation powered by DALL-E.
+  - **Use Cases**: Design mockups, presentations, social media visuals.
+  - **Free Access**: https://www.bing.com/create
+  - **Notes**: Generous free tier with Microsoft account; no credit card required.
 
-## New Aggregated API Platform
-
-• **AIMLAPI**
-  - **Purpose**: Single API key for 400+ AI models across domains.
-  - **Free Access**: https://aimlapi.com/ (no credit card required).
-  - **Use Cases**: Experimenting with many models, building multi‑model pipelines.
-  - **Notes**: Free tier includes GPT‑5, Claude, Gemini, Llama, and many others up to a limited token cap.
-
-
-  - Purpose: Text-to-image generation.
+• **Stable Diffusion (Hugging Face)**
+  - **Purpose**: Text-to-image generation.
   - Use Cases: Art creation, design mockups, visual content.
   - Free Access: https://huggingface.co/spaces/stabilityai/stable-diffusion
   - Self-Hosted: Available via Hugging Face models
@@ -154,6 +173,21 @@ List of useful free AI tools, their purposes, and use cases.
   - Use Cases: Unlimited AI image editing, text-to-image, text-to-video, image-to-video with audio.
   - Free Access: https://zsky.ai/ (unlimited free web tool, no credit card)
   - Notes: 1080p video generation with synchronized audio; API requires paid plan
+
+## OCR & Document Parsing
+
+• **LlamaParse**
+  - **Purpose**: AI-native PDF & document extraction.
+  - **Free Tier**: Up to 10,000 credits/month (~10,000 pages).
+  - **Use Cases**: RAG pipelines, data ingestion.
+  - **Free Access**: https://docs.llamaindex.ai/docs/language-models/llamaparse
+  - **Notes**: Credits automatically refreshed each month; high precision for tables.
+
+• **OCR.space**
+  - **Purpose**: Simple online OCR API.
+  - **Free Access**: https://ocr.space/.
+  - **Use Cases**: Quick OCR, batch image processing.
+  - **Notes**: Requires API key (free), 25,000 free calls/month; limited to 200k image pixels per day.
 
 ## Audio & Music
 
@@ -212,7 +246,7 @@ List of useful free AI tools, their purposes, and use cases.
   - Purpose: Ultra-fast AI inference on wafer-scale chips.
   - Use Cases: Low-latency applications, real-time chatbots, high-throughput tasks.
   - Free Access: https://cerebras.ai/
-  - Notes: Free tier: 1M tokens/day, 8K context cap, includes gpt-oss-120b, etc.
+  - Notes: Free tier: 1M tokens/day, 2,600+ tokens/sec on Llama 4 Scout, includes Llama 4 Scout and Qwen3 32B. No credit card required.
 
 • **Cloudflare Workers AI**
   - Purpose: Run AI models on Cloudflare's global network.
@@ -230,11 +264,11 @@ List of useful free AI tools, their purposes, and use cases.
   - Purpose: Permanently free AI model APIs.
   - Use Cases: Access to open-source models without cost.
   - Free Access: https://cloud.siliconflow.cn/
-  - Notes: Permanently free models, no credit card, 200+ models.
+  - Notes: Permanently free models, no credit card, 200+ models. ✅ Verified operational (June 2026).
 
 ## Open-Weight Models (Self-Hosted)
 
-• **Meta Llama 3**
+• **Meta Llama 3 / 4**
   - Purpose: Open-weight large language model for general tasks.
   - Use Cases: Custom fine-tuning, self-hosted chatbots, research.
   - Free Access: https://huggingface.co/meta-llama
@@ -244,6 +278,8 @@ List of useful free AI tools, their purposes, and use cases.
 
 • **GitHub Models** — No longer available to new customers as of June 2026. Existing users retain access.
   - Details: https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers/
+
+• **Google Gemini API** — Free tier limits reduced for some models starting April 2026. Billing tier spend caps enforced. Check current limits before relying on free tier.
 
 • **Free tiers change frequently** — Always verify current limits on the provider's official page.
 
