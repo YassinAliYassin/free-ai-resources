@@ -1,0 +1,5 @@
+# Normalize line endings on this repo's text files
+* text=auto
+
+# Documents
+*.md text
